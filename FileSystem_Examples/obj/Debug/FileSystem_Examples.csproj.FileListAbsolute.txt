@@ -1,0 +1,10 @@
+c:\users\jorge.perez\documents\visual studio 2012\Projects\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.dll
+c:\users\jorge.perez\documents\visual studio 2012\Projects\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.pdb
+c:\users\jorge.perez\documents\visual studio 2012\Projects\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.dll
+c:\users\jorge.perez\documents\visual studio 2012\Projects\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.pdb
+C:\Users\jorge.perez\Documents\Visual Studio 2012\Projects\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.csprojResolveAssemblyReference.cache
+C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.csprojResolveAssemblyReference.cache
+C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.dll
+C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.dll
+C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.pdb
+C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.pdb
