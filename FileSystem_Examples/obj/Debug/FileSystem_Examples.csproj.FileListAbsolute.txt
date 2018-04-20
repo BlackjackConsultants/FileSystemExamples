@@ -8,3 +8,8 @@ C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\obj\Debug
 C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.dll
 C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.pdb
 C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.pdb
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.csprojResolveAssemblyReference.cache
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.dll
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.pdb
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\FileSystem_Examples.dll
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\FileSystem_Examples.pdb
