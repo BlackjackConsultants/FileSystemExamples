@@ -8,8 +8,14 @@ C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\obj\Debug
 C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.dll
 C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\bin\Debug\FileSystem_Examples.pdb
 C:\Users\jorge.perez\Downloads\FileSystem_Examples\FileSystem_Examples\obj\Debug\FileSystem_Examples.pdb
-C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.csprojResolveAssemblyReference.cache
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.dll
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.pdb
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\FileSystem_Examples.dll
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\FileSystem_Examples.pdb
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\sharedStrings.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\styles.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\theme\theme1.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\workbook.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\worksheets\sheet1.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\[Content_Types].xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\_rels\workbook.xml.rels
