@@ -88,6 +88,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EmbeddedFile\Sample.xlsx" />
     <None Include="ExcelFileExtract\Sample\xl\_rels\workbook.xml.rels">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

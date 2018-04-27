@@ -10,7 +10,6 @@ namespace FileSystem_Examples {
         public void LoadAnEmbeddedFile() {
             var assembly = Assembly.GetExecutingAssembly();
             var resourceName = "FileSystem_Examples.EmbeddedFile.sheet1.xml";
-
             using (Stream stream = assembly.GetManifestResourceStream(resourceName))
                 using (StreamReader reader = new StreamReader(stream)) {
                     string result = reader.ReadToEnd();
@@ -21,14 +20,15 @@ namespace FileSystem_Examples {
         [TestMethod]
         public void SaveFileFromDllStreamFile() {
             var assembly = Assembly.GetExecutingAssembly();
-            var resourceName = "FileSystem_Examples.EmbeddedFile.sheet1.xml";
-            var tempFile = Path.GetTempPath() + "temp.xml";
+            var resourceName = "FileSystem_Examples.EmbeddedFile.Sample.xlsx";
+            var tempFile = Path.GetTempPath() + "temp.xlsx";
             using (Stream stream = assembly.GetManifestResourceStream(resourceName)) {
                 using (var file = new FileStream(tempFile, FileMode.Create, FileAccess.Write)) {
                     stream.CopyTo(file);
                     System.Diagnostics.Debug.WriteLine("Writing file to: " + tempFile);
                 }
             }
+            Assert.IsTrue(File.Exists(tempFile));
         }
     }
 }
