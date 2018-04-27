@@ -54,11 +54,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="FileSystemSearchTest.cs" />
+    <Compile Include="Helper\PackageHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PathTest.cs" />
     <Compile Include="Packaging.cs" />
+    <Compile Include="EmbeddedFiles.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="EmbeddedFile\sheet1.xml" />
     <Content Include="ExcelFileExtract\Sample\docProps\app.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

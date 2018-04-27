@@ -19,3 +19,8 @@ C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_E
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\worksheets\sheet1.xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\[Content_Types].xml
 C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\xl\_rels\workbook.xml.rels
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\docProps\app.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\docProps\core.xml
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\bin\Debug\ExcelFileExtract\Sample\_rels\.rels
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.csprojResolveAssemblyReference.cache
+C:\Users\jorge\OneDrive\jorgeprg\csharp\examples\FileSystemExamples\FileSystem_Examples\obj\Debug\FileSystem_Examples.csproj.CoreCompileInputs.cache

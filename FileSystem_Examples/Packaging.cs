@@ -2,6 +2,7 @@
 using System.IO;
 using System.IO.Packaging;
 using System.Text;
+using FileSystem_Examples.Helper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
@@ -15,22 +16,25 @@ namespace FileSystem_Examples {
     /// </summary>
     [TestClass]
     public class Packaging {
+        /// <summary>
+        /// creates a zip file from a package (or folder)
+        /// </summary>
         [TestMethod]
         public void CreatingPackage(){
-            string zipFileName = @"c:\temp\test.zip";
+            string zipFileName = @"test.zip";
 
             using (Package package = ZipPackage.Open(zipFileName, FileMode.Create)) {
-                string startFolder = @"C:\temp\test";
+                string startFolder = @"ExcelFileExtract\Sample";
 
                 foreach (string currentFile in Directory.GetFiles(startFolder, "*.*", SearchOption.AllDirectories)) {
                     System.Diagnostics.Debug.WriteLine("------------------------------------------------------------------------------------------------------------");
                     System.Diagnostics.Debug.WriteLine("Packing " + currentFile);
-                    Uri relUri = GetRelativeUri(currentFile);
+                    Uri relUri = PackageHelper.GetRelativeUri(currentFile);
 
                     PackagePart packagePart = package.CreatePart(relUri, System.Net.Mime.MediaTypeNames.Application.Octet, CompressionOption.Maximum);
                     using (FileStream fileStream = new FileStream(currentFile, FileMode.Open, FileAccess.Read)) {
                         if (packagePart != null)
-                            CopyStream(fileStream, packagePart.GetStream());
+                            PackageHelper.CopyStream(fileStream, packagePart.GetStream());
                     }
                     System.Diagnostics.Debug.WriteLine("PackagePart Uri: " + packagePart.Uri);
                 }
@@ -39,26 +43,6 @@ namespace FileSystem_Examples {
             Assert.IsTrue(File.Exists(zipFileName));
         }
 
-        private static void CopyStream(Stream source, Stream target) {
-            const int bufSize = 16384;
-            byte[] buf = new byte[bufSize];
-            int bytesRead = 0;
-            while ((bytesRead = source.Read(buf, 0, bufSize)) > 0)
-                target.Write(buf, 0, bytesRead);
-        }
-
-        private static Uri GetRelativeUri(string currentFile) {
-            string relPath = currentFile.Substring(currentFile
-            .IndexOf('\\')).Replace('\\', '/').Replace(' ', '_');
-            return new Uri(RemoveAccents(relPath), UriKind.Relative);
-        }
-
-        private static string RemoveAccents(string input) {
-            string normalized = input.Normalize(NormalizationForm.FormKD);
-            Encoding removal = Encoding.GetEncoding(Encoding.ASCII.CodePage, new EncoderReplacementFallback(""), new DecoderReplacementFallback(""));
-            byte[] bytes = removal.GetBytes(normalized);
-            return Encoding.ASCII.GetString(bytes);
-        }
     }
 }
 

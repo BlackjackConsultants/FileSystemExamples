@@ -24,12 +24,20 @@ namespace FileSystem_Examples {
 			string systemPath = Environment.GetFolderPath(Environment.SpecialFolder.System);
 			string programFilesPath = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles);
 			string programFilesX86 = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);
-			Assert.IsTrue(programFilesPath.ToLower().StartsWith("program"));
-			Assert.IsTrue(systemPath.ToLower().StartsWith("program"));
-			Assert.IsTrue(programFilesX86.ToLower().StartsWith("program"));
+            string tempPath = Path.GetTempPath();
+            Assert.IsTrue(programFilesPath.ToLower().Contains("program"));
+			Assert.IsTrue(systemPath.ToLower().Contains("program"));
+			Assert.IsTrue(programFilesX86.ToLower().Contains("program"));
+			Assert.IsTrue(tempPath.ToLower().Contains("temp"));
 		}
 
-		public void GettingFileAttributes() {
+        [TestMethod]
+        public void GettingTestFolders() {
+            string executingAsemblyFile = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase);
+            Assert.IsTrue(executingAsemblyFile.ToLower().StartsWith("program"));
+        }
+
+        public void GettingFileAttributes() {
 			string filePath = @"c:\test.txt";
 			// get file attributes
 			FileAttributes fileAttributes = File.GetAttributes(filePath);
