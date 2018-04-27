@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Reflection;
+using FileSystem_Examples.Helper;
 
 namespace FileSystem_Examples {
     [TestClass]
@@ -28,6 +29,14 @@ namespace FileSystem_Examples {
                     System.Diagnostics.Debug.WriteLine("Writing file to: " + tempFile);
                 }
             }
+            Assert.IsTrue(File.Exists(tempFile));
+        }
+
+        [TestMethod]
+        public void SaveFileFromDllStreamFileUsingHelper() {
+            var resourceName = "FileSystem_Examples.EmbeddedFile.Sample.xlsx";
+            var tempFile = Path.GetTempPath() + "temp.xlsx";
+            FileHelper.SaveEmbeddedFile(resourceName, tempFile);
             Assert.IsTrue(File.Exists(tempFile));
         }
     }
